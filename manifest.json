@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "The chosen tab",
+	"description": "Chose your own tab size!",
+	"version": "0.1.0",
+	"options_page": "options.html",
+	"permissions": [
+		"storage"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"http://*/*",
+				"https://*/*"
+			],
+			"js": [
+				"tab-sizer.js"
+			]
+		}
+	]
+}
