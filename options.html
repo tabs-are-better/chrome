@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The chosen tab</title>
+
+    <style type="text/css">
+        .c-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+        }
+
+        .o-input {
+            font-size: 3rem;
+            outline: none;
+        }
+
+        .o-input--loading { border-color: red }
+        .o-input--done { border-color: blue }
+    </style>
+</head>
+<body>
+    <div class="c-content">
+        I chose <input id="characters" class="o-input" type="number" min="1" value="4" /> characters!
+    </div>
+
+    <script src="options.js"></script>
+</body>
+</html>
