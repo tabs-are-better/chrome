@@ -1,8 +1,10 @@
 {
 	"manifest_version": 2,
-	"name": "The chosen tab",
+	"name": "Tabs are better",
 	"description": "Chose your own tab size!",
-	"version": "0.1.1",
+	"version": "0.2.0",
+	"homepage_url": "http://tabs.sexy",
+	"default_locale": "en",
 	"options_page": "options.html",
 	"permissions": [
 		"storage"
